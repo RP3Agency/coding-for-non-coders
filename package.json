@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/RP3Agency/coding-for-non-coders/issues"
   },
-  "homepage": "https://github.com/RP3Agency/coding-for-non-coders"
+  "homepage": "https://github.com/RP3Agency/coding-for-non-coders",
+  "dependencies": {
+    "express": "^4.11.2",
+    "gulp": "^3.8.11",
+    "gulp-markdown": "^1.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-reveal": "0.0.2"
+  }
 }
