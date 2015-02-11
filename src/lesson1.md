@@ -1,4 +1,4 @@
-#Coding for Non-Coders
+##Coding for Non-Coders
 
 ---
 
@@ -18,26 +18,25 @@
 ---
 ##Vocabulary
 ###Symbols
-- !
-- & 
-- []
-- {}
-- ()
-- /
-- \
-- |
-- ^
-- $
-- #
+- ! - bang
+- & - ampersand
+- [] - brackets
+- {} - braces
+- () - parens
+- / - slash
+- \ - backslash
+- | - pipe
+- ^ - caret
+- $ - dollar
+- \# - hash
 
 ---
 ##Vocabulary
 ###Language Constructs
-- Universal
-	- comments
-	- hash
-		- property
-		- value
+- comments
+- hash
+	- property
+	- value
 
 
 

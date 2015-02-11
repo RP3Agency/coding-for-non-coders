@@ -7,14 +7,15 @@ var gulp = require('gulp'),
 		target: './target/',
 		base: './src/',
 		vendor: './src/vendor/**',
-		markdown: './src/*.md'
+		markdown: './src/*.md',
+		template: './template.mustache'
 		
 	};
  
 gulp.task('markdown', function () {
   return gulp.src(paths.markdown)
     .pipe(markdown())
-    .pipe(reveal())
+    .pipe(reveal({template: paths.template }))
     .pipe(gulp.dest(paths.target));
 });
  
@@ -34,6 +35,6 @@ gulp.task('vendor', function () {
  
 gulp.task('default', ['markdown', 'vendor']); 
  
-gulp.task('watch', function () {
-  gulp.watch('*.md', ['default', 'express']);
+gulp.task('watch', ['express'], function () {
+  gulp.watch(paths.markdown, ['default']);
 });

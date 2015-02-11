@@ -21,6 +21,6 @@
     "gulp": "^3.8.11",
     "gulp-markdown": "^1.0.0",
     "gulp-notify": "^2.2.0",
-    "gulp-reveal": "0.0.2"
+    "gulp-reveal": "git+https://github.com/kurtroberts/gulp-reveal.git"
   }
 }
