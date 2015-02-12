@@ -171,17 +171,6 @@
 
 ---
 
-##Web Servers
-- files and directories
-- http and paths
-
----
-
-##Web Servers
-###Exercise: Upload you site to S3
-
----
-
 ##Other Kinds of Programming
 
 ---
