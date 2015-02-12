@@ -3,12 +3,15 @@ var gulp = require('gulp'),
 	reveal = require('gulp-reveal'), 
 	notify = require('gulp-notify'), 
 	express = require('express'),
+	del = require('del'),
 	paths = {
 		target: './target/',
 		base: './src/',
-		vendor: './src/vendor/**',
+		vendor: './src/vendors/**',
 		markdown: './src/*.md',
-		template: './template.mustache'
+		template: './template.mustache',
+		img: './src/img/**',
+		html: './src/**.html'
 		
 	};
  
@@ -31,9 +34,25 @@ gulp.task('vendor', function () {
   		.pipe(notify({message: 'vendor copied'}));
 }); 
  
- 
- 
-gulp.task('default', ['markdown', 'vendor']); 
+gulp.task('html', function () {
+    return gulp.src(paths.html, {base: paths.base})
+        .pipe(gulp.dest(paths.target))
+  		.pipe(notify({message: 'html copied'}));
+}); 
+
+gulp.task('img', function () {
+    return gulp.src(paths.img, {base: paths.base})
+        .pipe(gulp.dest(paths.target))
+  		.pipe(notify({message: 'img copied'}));
+}); 
+
+gulp.task('clean', function (cb) {
+  del([
+    paths.target
+    ], cb);
+});
+
+gulp.task('default', ['markdown', 'vendor', 'html', 'img']); 
  
 gulp.task('watch', ['express'], function () {
   gulp.watch(paths.markdown, ['default']);

@@ -187,18 +187,17 @@
 ---
 
 ##Java
-
----
-
-##SQL
+![image](img/eclipse.png)
 
 ---
 
 ##iOS
+![image](img/xcode.png)
 
 ---
 
 ##Max/MSP
+![image](img/max.png)
 
 ---
 

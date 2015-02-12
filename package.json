@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/RP3Agency/coding-for-non-coders",
   "dependencies": {
+    "del": "^1.1.1",
     "express": "^4.11.2",
     "gulp": "^3.8.11",
     "gulp-markdown": "^1.0.0",
