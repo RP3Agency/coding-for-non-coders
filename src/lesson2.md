@@ -1,20 +1,20 @@
-##Coding for Non-Coders
+## Coding for Non-Coders
 
 ---
 
-##It's Not Magic.
+## It's Not Magic.
 
-#It's Magical.
+# It's Magical.
 
 ---
 
-##Web Servers
+## Web Servers
 - files and directories
 - http and paths
 
 ---
 
-##In the beginning, there was the command line
+## In the beginning, there was the command line
 - ls
 - cp
 - rm
@@ -28,12 +28,12 @@
 
 ---
 
-##In the beginning, there was the command line
-###Exercise: Create, delete, move files and directories
+## In the beginning, there was the command line
+### Exercise: Create, delete, move files and directories
 
 ---
 
-##Web Servers
-###Exercise: Upload you site to S3
+## Web Servers
+### Exercise: Upload you site to S3
 
 ---

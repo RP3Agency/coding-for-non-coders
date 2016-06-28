@@ -1,23 +1,51 @@
-##Coding for Non-Coders
+## Coding for Non-Coders
 
 ---
 
-##It's Not Magic.
+## It's Not Magic.
 
-#It's Magical.
+# It's Magical.
 
 ---
 
-##HTML - A Brief History
-- Tag Soup
+## Development:
+
+(n.) Telling a computer to do something in a variety of different ways until it actually does what you wanted it to do.
+
+---
+
+## A Quick Distinction
+- Front-end programming
+	- HTML
+	- CSS
+	- JavaScript
+
+*Code that is executed in your web browser.*
+
+---
+
+- Back-end programming
+	- PHP
+	- Java
+	- ASP/.NET
+	- JavaScript
+	- Ruby
+	- Python
+
+*Code that is executed on a server.*
+
+---
+
+## HTML - A Brief History
+<!-- - Tag Soup -->
 - Browser Wars
 - W3C
 - XHTML
 - HTML5
 
 ---
-##Vocabulary
-###Symbols
+## Vocabulary
+### Symbols
 - ! - bang
 - & - ampersand
 - [] - brackets
@@ -27,13 +55,14 @@
 - \ - backslash
 - | - pipe
 - ^ - caret
-- $ - dollar
+- $ - string
 - \# - hash
 
 ---
-##Vocabulary
-###Language Constructs
+## Vocabulary
+### Language Constructs
 - comments
+- array (list)
 - hash
 	- property
 	- value
@@ -42,11 +71,11 @@
 
 ---
 
-#Parts of a Web Page
+# Parts of a Web Page
 
 ---
 
-##HTML = Structure
+## HTML = Structure
 
 - tag
 	- closing
@@ -56,15 +85,15 @@
 
 
 ---
-##HTML = Structure
+## HTML = Structure
 
-###Exercise: Hello, World!
+### Exercise: Hello, World!
 
 
 
 ---
 
-##CSS = Style
+## CSS = Style
 
 - selector
 - rule
@@ -73,15 +102,15 @@
 
 ---
 
-##CSS = Style
+## CSS = Style
 
-###Exercise: Bigger Hello, World!
+### Exercise: Bigger Hello, World!
 
 
 
 ---
 
-##Javascript = Behavior
+## Javascript = Behavior
 
 - variable
 - function
@@ -94,14 +123,14 @@
 
 ---
 
-##Javascript = Behavior
+## Javascript = Behavior
 
-###Exercise: Alert Hello, World!
+### Exercise: Alert Hello, World!
 
 
 ---
 
-##&lt;tags&gt;
+## &lt;tags&gt;
 - p
 - h1 - h6
 - a
@@ -114,12 +143,12 @@
 
 ---
 
-##&lt;tags&gt;
-###Exercise: Build your page
+## &lt;tags&gt;
+### Exercise: Build your page
 
 ---
 
-##styles {}
+## styles {}
 - color
 - background
 - width
@@ -130,18 +159,18 @@
 
 
 ---
-##styles {}
-###Exercise: Style your page
+## styles {}
+### Exercise: Style your page
 
 ---
 
-##scripting () {...}
+## scripting () {...}
 - console
 - console.log()
 
 ---
 
-##&lt;forms&gt;
+## &lt;forms&gt;
 - form
 - input
 - button
@@ -149,7 +178,7 @@
 
 ---
 
-##id= and class=
+## id= and class=
 - ids are unique
 - classes group elements
 - Document Object Model
@@ -157,42 +186,35 @@
 
 ---
 
-##(function ($) {...})(jQuery)
-###Exercise: Temperature Conversion
+## (function ($) {...})(jQuery)
+### Exercise: Temperature Conversion
 
 ---
 
-##(function ($) {...})(jQuery)
-###Exercise: Temperature Conversion
+# Welcome, Coder
 
 ---
 
-#Welcome, Coder
+## Other Kinds of Programming
 
 ---
 
-##Other Kinds of Programming
-
----
-
-##Java
+## Java
 ![image](img/eclipse.png)
 
 ---
 
-##iOS
+## iOS
 ![image](img/xcode.png)
 
 ---
 
-##Max/MSP
+## Max/MSP
 ![image](img/max.png)
 
 ---
 
-##Learn More
+## Learn More
 - [General Assembly](https://generalassemb.ly/washington-dc)
 - [Codecademy](http://www.codecademy.com/)
-
-
-
+- [Treehouse](http://www.teamtreehouse.com/)
